@@ -1,4 +1,4 @@
-# Social Network API
+# My React Portfolio
 
 ![](https://img.shields.io/badge/License-MIT-blue)
 
