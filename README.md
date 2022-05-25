@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/License-MIT-blue)
 
 ## Description
-The objective of this project is to create a React page for my personal portfolio which will be applied to future uses (ex. job application). This project expects for the previous portfolio that was created and convert it into a React.
+The objective of this project is to create a React page for my personal portfolio which will be applied to future uses (ex. job application). This project expects for the previous portfolio that was created to be converted it into a React.
 
 ## Table of Contents
       
