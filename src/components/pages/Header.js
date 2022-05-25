@@ -1,9 +1,12 @@
 import React from 'react';
+import '../pages/styles/Header.css';
 
-export default function Header() {
+function Header() {
     return (
-      <div>
+      <header classsName = "header">
         <h1>Carolyn Ngo's Portfolio</h1>
-      </div>
+      </header>
     );
   }
+
+export default Header;
