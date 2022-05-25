@@ -5,5 +5,6 @@ export default function Home() {
     <div>
       <h1>Welcome to my page!</h1>
     </div>
+    
   );
 }

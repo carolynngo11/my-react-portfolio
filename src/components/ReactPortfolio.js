@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import Home from './pages/Home';
 import Navigation from './pages/Navigation';
+import Footer from './pages/Footer';
+import Header from './pages/Header';
+import Project from './pages/Project';
 import AboutMe from './pages/AboutMe';
-import Work from './pages/Work';
+import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 
@@ -16,8 +19,8 @@ export default function PortfolioContainer() {
     if (currentPage === 'AboutMe') {
       return <AboutMe />;
     }
-    if (currentPage === 'Work') {
-      return <Work />;
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;
@@ -32,7 +35,11 @@ export default function PortfolioContainer() {
   return (
     <div>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Project currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <Footer currentPage={currentPage} handlePageChange={handlePageChange} />
     </div>
+    
   );
 }
