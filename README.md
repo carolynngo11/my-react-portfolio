@@ -12,7 +12,7 @@ The objective of this project is to create a React page for my personal portfoli
 - [Questions](#questions)
       
 ## Installation
-Used jest, react, axios, bootstrap.
+Packages downloaded: jest, react, axios, bootstrap, gh-pages.
 
 ## Usage
 
