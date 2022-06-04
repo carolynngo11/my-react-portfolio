@@ -16,7 +16,7 @@ Used jest, react, axios, bootstrap.
 
 ## Usage
 
-![portfolio-screenshot](![react-portfolio-screenshot](https://user-images.githubusercontent.com/99929883/171992373-e9550734-d9ee-4bab-8896-526f9a486a69.JPG)
+![portfolio-screenshot](https://user-images.githubusercontent.com/99929883/171992373-e9550734-d9ee-4bab-8896-526f9a486a69.JPG)
 
 Deployment Application Link: https://carolynngo11.github.io/my-react-portfolio/
 
